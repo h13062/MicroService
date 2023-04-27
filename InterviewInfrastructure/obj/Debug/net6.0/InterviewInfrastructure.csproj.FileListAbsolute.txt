@@ -1,0 +1,17 @@
+D:\AntraMicroService\Solution1\InterviewInfrastructure\bin\Debug\net6.0\InterviewInfrastructure.deps.json
+D:\AntraMicroService\Solution1\InterviewInfrastructure\bin\Debug\net6.0\InterviewInfrastructure.dll
+D:\AntraMicroService\Solution1\InterviewInfrastructure\bin\Debug\net6.0\InterviewInfrastructure.pdb
+D:\AntraMicroService\Solution1\InterviewInfrastructure\obj\Debug\net6.0\InterviewInfrastructure.csproj.AssemblyReference.cache
+D:\AntraMicroService\Solution1\InterviewInfrastructure\obj\Debug\net6.0\InterviewInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\AntraMicroService\Solution1\InterviewInfrastructure\obj\Debug\net6.0\InterviewInfrastructure.AssemblyInfoInputs.cache
+D:\AntraMicroService\Solution1\InterviewInfrastructure\obj\Debug\net6.0\InterviewInfrastructure.AssemblyInfo.cs
+D:\AntraMicroService\Solution1\InterviewInfrastructure\obj\Debug\net6.0\InterviewInfrastructure.csproj.CoreCompileInputs.cache
+D:\AntraMicroService\Solution1\InterviewInfrastructure\obj\Debug\net6.0\InterviewInfrastructure.dll
+D:\AntraMicroService\Solution1\InterviewInfrastructure\obj\Debug\net6.0\refint\InterviewInfrastructure.dll
+D:\AntraMicroService\Solution1\InterviewInfrastructure\obj\Debug\net6.0\InterviewInfrastructure.pdb
+D:\AntraMicroService\Solution1\InterviewInfrastructure\obj\Debug\net6.0\ref\InterviewInfrastructure.dll
+D:\AntraMicroService\Solution1\InterviewInfrastructure\bin\Debug\net6.0\InterviewInfrastructure.runtimeconfig.json
+D:\AntraMicroService\Solution1\InterviewInfrastructure\bin\Debug\net6.0\InterviewCore.dll
+D:\AntraMicroService\Solution1\InterviewInfrastructure\bin\Debug\net6.0\InterviewCore.pdb
+D:\AntraMicroService\Solution1\InterviewInfrastructure\obj\Debug\net6.0\InterviewInfrastructure.csproj.CopyComplete
+D:\AntraMicroService\Solution1\InterviewInfrastructure\obj\Debug\net6.0\InterviewInfrastructure.genruntimeconfig.cache

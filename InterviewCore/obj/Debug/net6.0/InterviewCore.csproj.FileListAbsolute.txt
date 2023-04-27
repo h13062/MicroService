@@ -1,0 +1,14 @@
+D:\AntraMicroService\Solution1\InterviewCore\bin\Debug\net6.0\InterviewCore.deps.json
+D:\AntraMicroService\Solution1\InterviewCore\bin\Debug\net6.0\InterviewCore.dll
+D:\AntraMicroService\Solution1\InterviewCore\bin\Debug\net6.0\InterviewCore.pdb
+D:\AntraMicroService\Solution1\InterviewCore\obj\Debug\net6.0\InterviewCore.csproj.AssemblyReference.cache
+D:\AntraMicroService\Solution1\InterviewCore\obj\Debug\net6.0\InterviewCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\AntraMicroService\Solution1\InterviewCore\obj\Debug\net6.0\InterviewCore.AssemblyInfoInputs.cache
+D:\AntraMicroService\Solution1\InterviewCore\obj\Debug\net6.0\InterviewCore.AssemblyInfo.cs
+D:\AntraMicroService\Solution1\InterviewCore\obj\Debug\net6.0\InterviewCore.csproj.CoreCompileInputs.cache
+D:\AntraMicroService\Solution1\InterviewCore\obj\Debug\net6.0\InterviewCore.dll
+D:\AntraMicroService\Solution1\InterviewCore\obj\Debug\net6.0\refint\InterviewCore.dll
+D:\AntraMicroService\Solution1\InterviewCore\obj\Debug\net6.0\InterviewCore.pdb
+D:\AntraMicroService\Solution1\InterviewCore\obj\Debug\net6.0\ref\InterviewCore.dll
+D:\AntraMicroService\Solution1\InterviewCore\bin\Debug\net6.0\InterviewCore.runtimeconfig.json
+D:\AntraMicroService\Solution1\InterviewCore\obj\Debug\net6.0\InterviewCore.genruntimeconfig.cache
