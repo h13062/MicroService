@@ -28,6 +28,7 @@ namespace Recruiting.Infrastructure.Service
                 {
                     candidate.CandidateId = model.CandidateId;
                     candidate.FirstName = model.FirstName;
+                    candidate.MiddleName = model.MiddleName;
                     candidate.LastName = model.LastName;
                     candidate.Email = model.Email;
                     candidate.ResumeURL = model.ResumeURL;
@@ -78,6 +79,7 @@ namespace Recruiting.Infrastructure.Service
                 CandidateResponseModel model = new CandidateResponseModel();
                 model.CandidateId = collection.CandidateId;
                 model.FirstName = collection.FirstName;
+                model.MiddleName = collection.MiddleName;
                 model.LastName = collection.LastName;
                 model.Email = collection.Email;
                 model.ResumeURL = collection.ResumeURL;

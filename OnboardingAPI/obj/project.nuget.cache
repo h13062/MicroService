@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "kcrhzpOYEFoln9z6QaU9CtMmJMMRgUsbjOOoDt8yR1e4TshnCksBirdO13gssWMUoKw5iZTpGIyTvxltM5yNvg==",
+  "success": true,
+  "projectFilePath": "D:\\AntraMicroService\\Solution1\\OnboardingAPI\\OnboardingAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bgh15\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\bgh15\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\bgh15\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\bgh15\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\bgh15\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\bgh15\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

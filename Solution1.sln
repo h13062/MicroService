@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recruiting.Core", "Recruiti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recruiting.Infrastructure", "Recruiting.Infrastructure\Recruiting.Infrastructure.csproj", "{F5A41576-887E-4860-8392-1675E383B509}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Onboarding", "Onboarding", "{0E5820D8-27ED-4E87-8722-87569926E6D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnboardingAPI", "OnboardingAPI\OnboardingAPI.csproj", "{EB881CEA-C7CD-422E-ABFB-3BD3D366F640}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +53,10 @@ Global
 		{F5A41576-887E-4860-8392-1675E383B509}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5A41576-887E-4860-8392-1675E383B509}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5A41576-887E-4860-8392-1675E383B509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB881CEA-C7CD-422E-ABFB-3BD3D366F640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB881CEA-C7CD-422E-ABFB-3BD3D366F640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB881CEA-C7CD-422E-ABFB-3BD3D366F640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB881CEA-C7CD-422E-ABFB-3BD3D366F640}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +68,7 @@ Global
 		{08753DAD-8D68-4C57-B86E-112AA1FD53AB} = {A6E8B0F2-353D-443E-9F75-C24A5E353059}
 		{B09495DD-4F36-49D8-B872-58AAE36B190D} = {A6E8B0F2-353D-443E-9F75-C24A5E353059}
 		{F5A41576-887E-4860-8392-1675E383B509} = {A6E8B0F2-353D-443E-9F75-C24A5E353059}
+		{EB881CEA-C7CD-422E-ABFB-3BD3D366F640} = {0E5820D8-27ED-4E87-8722-87569926E6D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D684F8F8-E90F-4B8B-B248-BDCFC0CB51D1}

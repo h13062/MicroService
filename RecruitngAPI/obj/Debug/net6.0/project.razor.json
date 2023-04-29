@@ -1,6 +1,6 @@
 {
-  "SerializedFilePath": "d:\\AntraMicroService\\Solution1\\InterviewAPI\\obj\\Debug\\net6.0\\project.razor.json",
-  "FilePath": "d:\\AntraMicroService\\Solution1\\InterviewAPI\\InterviewAPI.csproj",
+  "SerializedFilePath": "d:\\AntraMicroService\\Solution1\\RecruitngAPI\\obj\\Debug\\net6.0\\project.razor.json",
+  "FilePath": "d:\\AntraMicroService\\Solution1\\RecruitngAPI\\RecruitngAPI.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -18371,7 +18371,7 @@
     ],
     "CSharpLanguageVersion": 1000
   },
-  "RootNamespace": "InterviewAPI",
+  "RootNamespace": "RecruitngAPI",
   "Documents": [],
   "SerializationFormat": "0.3"
 }
