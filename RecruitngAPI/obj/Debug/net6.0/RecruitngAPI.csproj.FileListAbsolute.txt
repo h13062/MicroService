@@ -54,7 +54,6 @@ D:\AntraMicroService\Solution1\RecruitngAPI\obj\Debug\net6.0\RecruitngAPI.Genera
 D:\AntraMicroService\Solution1\RecruitngAPI\obj\Debug\net6.0\RecruitngAPI.AssemblyInfoInputs.cache
 D:\AntraMicroService\Solution1\RecruitngAPI\obj\Debug\net6.0\RecruitngAPI.AssemblyInfo.cs
 D:\AntraMicroService\Solution1\RecruitngAPI\obj\Debug\net6.0\RecruitngAPI.csproj.CoreCompileInputs.cache
-D:\AntraMicroService\Solution1\RecruitngAPI\obj\Debug\net6.0\RecruitngAPI.MvcApplicationPartsAssemblyInfo.cs
 D:\AntraMicroService\Solution1\RecruitngAPI\obj\Debug\net6.0\RecruitngAPI.MvcApplicationPartsAssemblyInfo.cache
 D:\AntraMicroService\Solution1\RecruitngAPI\obj\Debug\net6.0\staticwebassets.build.json
 D:\AntraMicroService\Solution1\RecruitngAPI\obj\Debug\net6.0\staticwebassets.development.json
@@ -65,3 +64,4 @@ D:\AntraMicroService\Solution1\RecruitngAPI\obj\Debug\net6.0\refint\RecruitngAPI
 D:\AntraMicroService\Solution1\RecruitngAPI\obj\Debug\net6.0\RecruitngAPI.pdb
 D:\AntraMicroService\Solution1\RecruitngAPI\obj\Debug\net6.0\RecruitngAPI.genruntimeconfig.cache
 D:\AntraMicroService\Solution1\RecruitngAPI\obj\Debug\net6.0\ref\RecruitngAPI.dll
+D:\AntraMicroService\Solution1\RecruitngAPI\obj\Debug\net6.0\RecruitngAPI.MvcApplicationPartsAssemblyInfo.cs

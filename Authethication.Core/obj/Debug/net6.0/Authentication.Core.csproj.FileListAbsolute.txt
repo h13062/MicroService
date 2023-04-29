@@ -1,0 +1,14 @@
+D:\AntraMicroService\Solution1\Authethication.Core\bin\Debug\net6.0\Authentication.Core.deps.json
+D:\AntraMicroService\Solution1\Authethication.Core\bin\Debug\net6.0\Authentication.Core.runtimeconfig.json
+D:\AntraMicroService\Solution1\Authethication.Core\bin\Debug\net6.0\Authentication.Core.dll
+D:\AntraMicroService\Solution1\Authethication.Core\bin\Debug\net6.0\Authentication.Core.pdb
+D:\AntraMicroService\Solution1\Authethication.Core\obj\Debug\net6.0\Authentication.Core.csproj.AssemblyReference.cache
+D:\AntraMicroService\Solution1\Authethication.Core\obj\Debug\net6.0\Authentication.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\AntraMicroService\Solution1\Authethication.Core\obj\Debug\net6.0\Authentication.Core.AssemblyInfoInputs.cache
+D:\AntraMicroService\Solution1\Authethication.Core\obj\Debug\net6.0\Authentication.Core.AssemblyInfo.cs
+D:\AntraMicroService\Solution1\Authethication.Core\obj\Debug\net6.0\Authentication.Core.csproj.CoreCompileInputs.cache
+D:\AntraMicroService\Solution1\Authethication.Core\obj\Debug\net6.0\Authentication.Core.dll
+D:\AntraMicroService\Solution1\Authethication.Core\obj\Debug\net6.0\refint\Authentication.Core.dll
+D:\AntraMicroService\Solution1\Authethication.Core\obj\Debug\net6.0\Authentication.Core.pdb
+D:\AntraMicroService\Solution1\Authethication.Core\obj\Debug\net6.0\Authentication.Core.genruntimeconfig.cache
+D:\AntraMicroService\Solution1\Authethication.Core\obj\Debug\net6.0\ref\Authentication.Core.dll

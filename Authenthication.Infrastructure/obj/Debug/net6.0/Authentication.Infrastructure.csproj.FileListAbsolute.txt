@@ -1,0 +1,17 @@
+D:\AntraMicroService\Solution1\Authenthication.Infrastructure\bin\Debug\net6.0\Authentication.Infrastructure.deps.json
+D:\AntraMicroService\Solution1\Authenthication.Infrastructure\bin\Debug\net6.0\Authentication.Infrastructure.runtimeconfig.json
+D:\AntraMicroService\Solution1\Authenthication.Infrastructure\bin\Debug\net6.0\Authentication.Infrastructure.dll
+D:\AntraMicroService\Solution1\Authenthication.Infrastructure\bin\Debug\net6.0\Authentication.Infrastructure.pdb
+D:\AntraMicroService\Solution1\Authenthication.Infrastructure\bin\Debug\net6.0\Authentication.Core.dll
+D:\AntraMicroService\Solution1\Authenthication.Infrastructure\bin\Debug\net6.0\Authentication.Core.pdb
+D:\AntraMicroService\Solution1\Authenthication.Infrastructure\obj\Debug\net6.0\Authentication.Infrastructure.csproj.AssemblyReference.cache
+D:\AntraMicroService\Solution1\Authenthication.Infrastructure\obj\Debug\net6.0\Authentication.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\AntraMicroService\Solution1\Authenthication.Infrastructure\obj\Debug\net6.0\Authentication.Infrastructure.AssemblyInfoInputs.cache
+D:\AntraMicroService\Solution1\Authenthication.Infrastructure\obj\Debug\net6.0\Authentication.Infrastructure.AssemblyInfo.cs
+D:\AntraMicroService\Solution1\Authenthication.Infrastructure\obj\Debug\net6.0\Authentication.Infrastructure.csproj.CoreCompileInputs.cache
+D:\AntraMicroService\Solution1\Authenthication.Infrastructure\obj\Debug\net6.0\Authentication.Infrastructure.csproj.CopyComplete
+D:\AntraMicroService\Solution1\Authenthication.Infrastructure\obj\Debug\net6.0\Authentication.Infrastructure.dll
+D:\AntraMicroService\Solution1\Authenthication.Infrastructure\obj\Debug\net6.0\refint\Authentication.Infrastructure.dll
+D:\AntraMicroService\Solution1\Authenthication.Infrastructure\obj\Debug\net6.0\Authentication.Infrastructure.pdb
+D:\AntraMicroService\Solution1\Authenthication.Infrastructure\obj\Debug\net6.0\Authentication.Infrastructure.genruntimeconfig.cache
+D:\AntraMicroService\Solution1\Authenthication.Infrastructure\obj\Debug\net6.0\ref\Authentication.Infrastructure.dll
