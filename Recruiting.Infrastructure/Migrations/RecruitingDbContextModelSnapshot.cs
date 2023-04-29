@@ -78,7 +78,7 @@ namespace Recruiting.Infrastructure.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("varchar");
+                        .HasColumnType("nvarchar(512)");
 
                     b.Property<string>("EmployeeType")
                         .HasColumnType("nvarchar(max)");
@@ -161,7 +161,7 @@ namespace Recruiting.Infrastructure.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("nvarchar(512)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("LookupCode");
 

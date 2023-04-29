@@ -42,7 +42,7 @@ namespace Recruiting.Infrastructure.Service
 
         public async Task<IEnumerable<SubmissionResponseModel>> GetAllSubmissions()
         {
-            var collection = await submissionRepository.GetAllAsync();
+            var collection = await submissionRepository.GetByIdAsync();
             if (collection != null)
             {
                 List<SubmissionResponseModel> result = new List<SubmissionResponseModel>();

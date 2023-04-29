@@ -13,9 +13,10 @@ namespace Recruiting.Core.Entity
         public int NumberOfPositions { get; set; }
         [Column(TypeName = "nvarchar(512)")]
         public string Title { get; set; }
-        [Column(TypeName = "varchar")]
+        [Column(TypeName = "nvarchar(512)")]
         public string Description { get; set; }
         public int HiringManagerId { get; set; }
+        [Column(TypeName = "nvarchar(max)")]
         public string? HiringManagerName { get; set; }
         public DateTime StartDate { get; set; }
         public bool IsActivate { get; set; }

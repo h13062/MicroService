@@ -51,7 +51,7 @@ namespace Recruiting.Infrastructure.Service
 
         public async Task<IEnumerable<CandidateResponseModel>> GetAllCandidates()
         {
-            var collection = await candidateRepository.GetAllAsync();
+            var collection = await candidateRepository.GetByIdAsync();
             if (collection != null)
             {
                 List<CandidateResponseModel> result = new List<CandidateResponseModel>();

@@ -12,7 +12,7 @@ namespace Recruiting.Core.Entity
     {
         [Key]
         public int LookupCode { get; set; }
-        [Column(TypeName = "nvarchar(512)")]
+        [Column(TypeName = "nvarchar(max)")]
         public string Description { get; set; }
         public List<Submission>? Submissions { get; set; }
     }

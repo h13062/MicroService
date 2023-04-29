@@ -31,6 +31,7 @@ namespace Recruiting.Infrastructure.Service
                 jr.HiringManagerName = model.HiringManagerName;
                 jr.StartDate = model.StartDate;
                 jr.ClosedOn = model.ClosedOn;
+                jr.ClosedReason = model.ClosedReason;
                 jr.CreatedOn = model.CreatedOn;
                 jr.JobCategory = model.JobCategory;
                 jr.EmployeeType = model.EmployeeType;
@@ -46,7 +47,7 @@ namespace Recruiting.Infrastructure.Service
 
         public async Task<IEnumerable<JobRequirementResponseModel>> GetAllJobRequirements()
         {
-            var collection = await jobRequirementRepository.GetAllAsync();
+            var collection = await jobRequirementRepository.GetByIdAsync();
             if (collection != null)
             {
                 List<JobRequirementResponseModel> result = new List<JobRequirementResponseModel>();
@@ -61,6 +62,7 @@ namespace Recruiting.Infrastructure.Service
                     model.HiringManagerName = item.HiringManagerName;
                     model.StartDate = item.StartDate;
                     model.ClosedOn = item.ClosedOn;
+                    model.ClosedReason = item.ClosedReason;
                     model.CreatedOn = item.CreatedOn;
                     model.JobCategory = item.JobCategory;
                     model.EmployeeType = item.EmployeeType;
@@ -86,6 +88,7 @@ namespace Recruiting.Infrastructure.Service
                 model.HiringManagerName = item.HiringManagerName;
                 model.StartDate = item.StartDate;
                 model.ClosedOn = item.ClosedOn;
+                model.ClosedReason = item.ClosedReason;
                 model.CreatedOn = item.CreatedOn;
                 model.JobCategory = item.JobCategory;
                 model.EmployeeType = item.EmployeeType;
@@ -112,6 +115,7 @@ namespace Recruiting.Infrastructure.Service
                 jr.HiringManagerName = model.HiringManagerName;
                 jr.StartDate = model.StartDate;
                 jr.ClosedOn = model.ClosedOn;
+                jr.ClosedReason = model.ClosedReason;   
                 jr.CreatedOn = model.CreatedOn;
                 jr.JobCategory = model.JobCategory;
                 jr.EmployeeType = model.EmployeeType;

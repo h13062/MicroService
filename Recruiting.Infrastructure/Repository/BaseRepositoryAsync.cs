@@ -28,7 +28,7 @@ namespace Recruiting.Infrastructure.Repository
             return 0;
         }
 
-        public async Task<IEnumerable<T>> GetAllAsync()
+        public async Task<IEnumerable<T>> GetByIdAsync()
         {
             return await _dbContext.Set<T>().ToListAsync();
         }
