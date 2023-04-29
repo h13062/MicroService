@@ -60,6 +60,7 @@ namespace Recruiting.Infrastructure.Service
                     CandidateResponseModel model = new CandidateResponseModel();
                     model.CandidateId = item.CandidateId;
                     model.FirstName = item.FirstName;
+                    model.MiddleName = item.MiddleName;
                     model.LastName = item.LastName;
                     model.Email = item.Email;
                     model.ResumeURL = item.ResumeURL;
@@ -100,6 +101,7 @@ namespace Recruiting.Infrastructure.Service
             {
                 candidate.CandidateId = model.CandidateId;
                 candidate.FirstName = model.FirstName;
+                candidate.MiddleName = model.MiddleName;
                 candidate.LastName = model.LastName;
                 candidate.Email = model.Email;
                 candidate.ResumeURL = model.ResumeURL;
