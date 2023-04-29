@@ -21,18 +21,29 @@ namespace Recruiting.Infrastructure.Service
         public async Task<int> AddSubmissionAsync(SubmissionRequestModel model)
         {
             Submission sub = new Submission();
-            if (model != null)
+            try
             {
-                sub.SubmissionId = model.SubmissionId;
-                sub.JobRequirementId = model.JobRequirementId;
-                sub.CandidateId = model.CandidateId;
-                sub.SubmittedOn = model.SubmittedOn;
-                sub.ConfirmedOn = model.ConfirmedOn;
-                sub.RejectedOn = model.RejectedOn;
-                sub.SubmissionStatusCode = model.SubmissionStatusCode;
+                if (model != null)
+                {
+                    sub.SubmissionId = model.SubmissionId;
+                    sub.JobRequirementId = model.JobRequirementId;
+                    sub.CandidateId = model.CandidateId;
+                    sub.SubmissionStatusCode = model.SubmissionStatusCode;
+                    sub.SubmittedOn = model.SubmittedOn;
+                    sub.ConfirmedOn = model.ConfirmedOn;
+                    sub.RejectedOn = model.RejectedOn;
+                    
+                }
+                return await submissionRepository.InsertAsync(sub);
             }
+            catch (Exception e)
+            {
+                Console.WriteLine("Exception: ", e);
+                return 0;
+            }
+           
             //returns number of rows affected, typically 1
-            return await submissionRepository.InsertAsync(sub);
+           
         }
 
         public async Task<int> DeleteSubmissionAsync(int id)
@@ -52,10 +63,11 @@ namespace Recruiting.Infrastructure.Service
                     model.SubmissionId = item.SubmissionId;
                     model.JobRequirementId = item.JobRequirementId;
                     model.CandidateId = item.CandidateId;
+                    model.SubmissionStatusCode = item.SubmissionStatusCode;
                     model.SubmittedOn = item.SubmittedOn;
                     model.ConfirmedOn = item.ConfirmedOn;
                     model.RejectedOn = item.RejectedOn;
-                    model.SubmissionStatusCode = item.SubmissionStatusCode;
+                  
                     result.Add(model);
                 }
                 return result;
@@ -72,10 +84,11 @@ namespace Recruiting.Infrastructure.Service
                 model.SubmissionId = item.SubmissionId;
                 model.JobRequirementId = item.JobRequirementId;
                 model.CandidateId = item.CandidateId;
+                model.SubmissionStatusCode = item.SubmissionStatusCode;
                 model.SubmittedOn = item.SubmittedOn;
                 model.ConfirmedOn = item.ConfirmedOn;
                 model.RejectedOn = item.RejectedOn;
-                model.SubmissionStatusCode = item.SubmissionStatusCode;
+               
                 return model;
             }
             return null;
@@ -95,10 +108,11 @@ namespace Recruiting.Infrastructure.Service
                 sub.SubmissionId = model.SubmissionId;
                 sub.JobRequirementId = model.JobRequirementId;
                 sub.CandidateId = model.CandidateId;
+                sub.SubmissionStatusCode = model.SubmissionStatusCode;
                 sub.SubmittedOn = model.SubmittedOn;
                 sub.ConfirmedOn = model.ConfirmedOn;
                 sub.RejectedOn = model.RejectedOn;
-                sub.SubmissionStatusCode = model.SubmissionStatusCode;
+                
                 return await submissionRepository.UpdateAsync(sub);
             }
             else
