@@ -1,0 +1,14 @@
+D:\AntraMicroService\Solution1\Recruiting.Core\bin\Debug\net6.0\Recruiting.Core.deps.json
+D:\AntraMicroService\Solution1\Recruiting.Core\bin\Debug\net6.0\Recruiting.Core.runtimeconfig.json
+D:\AntraMicroService\Solution1\Recruiting.Core\bin\Debug\net6.0\Recruiting.Core.dll
+D:\AntraMicroService\Solution1\Recruiting.Core\bin\Debug\net6.0\Recruiting.Core.pdb
+D:\AntraMicroService\Solution1\Recruiting.Core\obj\Debug\net6.0\Recruiting.Core.csproj.AssemblyReference.cache
+D:\AntraMicroService\Solution1\Recruiting.Core\obj\Debug\net6.0\Recruiting.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\AntraMicroService\Solution1\Recruiting.Core\obj\Debug\net6.0\Recruiting.Core.AssemblyInfoInputs.cache
+D:\AntraMicroService\Solution1\Recruiting.Core\obj\Debug\net6.0\Recruiting.Core.AssemblyInfo.cs
+D:\AntraMicroService\Solution1\Recruiting.Core\obj\Debug\net6.0\Recruiting.Core.csproj.CoreCompileInputs.cache
+D:\AntraMicroService\Solution1\Recruiting.Core\obj\Debug\net6.0\Recruiting.Core.dll
+D:\AntraMicroService\Solution1\Recruiting.Core\obj\Debug\net6.0\refint\Recruiting.Core.dll
+D:\AntraMicroService\Solution1\Recruiting.Core\obj\Debug\net6.0\Recruiting.Core.pdb
+D:\AntraMicroService\Solution1\Recruiting.Core\obj\Debug\net6.0\Recruiting.Core.genruntimeconfig.cache
+D:\AntraMicroService\Solution1\Recruiting.Core\obj\Debug\net6.0\ref\Recruiting.Core.dll
