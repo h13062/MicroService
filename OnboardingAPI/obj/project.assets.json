@@ -705,6 +705,35 @@
             "rid": "win"
           }
         }
+      },
+      "Onboarding.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.16",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16"
+        },
+        "compile": {
+          "bin/placeholder/Onboarding.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Onboarding.Core.dll": {}
+        }
+      },
+      "Onboarding.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.16",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16",
+          "Onboarding.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Onboarding.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Onboarding.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -2051,6 +2080,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Onboarding.Core/1.0.0": {
+      "type": "project",
+      "path": "../Onboarding.Core/Onboarding.Core.csproj",
+      "msbuildProject": "../Onboarding.Core/Onboarding.Core.csproj"
+    },
+    "Onboarding.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Onboarding.Infrastructure/Onboarding.Infrastructure.csproj",
+      "msbuildProject": "../Onboarding.Infrastructure/Onboarding.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2058,6 +2097,8 @@
       "Microsoft.EntityFrameworkCore >= 6.0.16",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.16",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.16",
+      "Onboarding.Core >= 1.0.0",
+      "Onboarding.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -2092,7 +2133,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\AntraMicroService\\Solution1\\Onboarding.Core\\Onboarding.Core.csproj": {
+              "projectPath": "D:\\AntraMicroService\\Solution1\\Onboarding.Core\\Onboarding.Core.csproj"
+            },
+            "D:\\AntraMicroService\\Solution1\\Onboarding.Infrastructure\\Onboarding.Infrastructure.csproj": {
+              "projectPath": "D:\\AntraMicroService\\Solution1\\Onboarding.Infrastructure\\Onboarding.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

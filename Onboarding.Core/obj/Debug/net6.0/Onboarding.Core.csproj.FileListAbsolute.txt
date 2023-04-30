@@ -1,0 +1,14 @@
+D:\AntraMicroService\Solution1\Onboarding.Core\bin\Debug\net6.0\Onboarding.Core.deps.json
+D:\AntraMicroService\Solution1\Onboarding.Core\bin\Debug\net6.0\Onboarding.Core.runtimeconfig.json
+D:\AntraMicroService\Solution1\Onboarding.Core\bin\Debug\net6.0\Onboarding.Core.dll
+D:\AntraMicroService\Solution1\Onboarding.Core\bin\Debug\net6.0\Onboarding.Core.pdb
+D:\AntraMicroService\Solution1\Onboarding.Core\obj\Debug\net6.0\Onboarding.Core.csproj.AssemblyReference.cache
+D:\AntraMicroService\Solution1\Onboarding.Core\obj\Debug\net6.0\Onboarding.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\AntraMicroService\Solution1\Onboarding.Core\obj\Debug\net6.0\Onboarding.Core.AssemblyInfoInputs.cache
+D:\AntraMicroService\Solution1\Onboarding.Core\obj\Debug\net6.0\Onboarding.Core.AssemblyInfo.cs
+D:\AntraMicroService\Solution1\Onboarding.Core\obj\Debug\net6.0\Onboarding.Core.csproj.CoreCompileInputs.cache
+D:\AntraMicroService\Solution1\Onboarding.Core\obj\Debug\net6.0\Onboarding.Core.dll
+D:\AntraMicroService\Solution1\Onboarding.Core\obj\Debug\net6.0\refint\Onboarding.Core.dll
+D:\AntraMicroService\Solution1\Onboarding.Core\obj\Debug\net6.0\Onboarding.Core.pdb
+D:\AntraMicroService\Solution1\Onboarding.Core\obj\Debug\net6.0\Onboarding.Core.genruntimeconfig.cache
+D:\AntraMicroService\Solution1\Onboarding.Core\obj\Debug\net6.0\ref\Onboarding.Core.dll

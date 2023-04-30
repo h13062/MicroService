@@ -1,0 +1,17 @@
+D:\AntraMicroService\Solution1\Onboarding.Infrastructure\bin\Debug\net6.0\Onboarding.Infrastructure.deps.json
+D:\AntraMicroService\Solution1\Onboarding.Infrastructure\bin\Debug\net6.0\Onboarding.Infrastructure.runtimeconfig.json
+D:\AntraMicroService\Solution1\Onboarding.Infrastructure\bin\Debug\net6.0\Onboarding.Infrastructure.dll
+D:\AntraMicroService\Solution1\Onboarding.Infrastructure\bin\Debug\net6.0\Onboarding.Infrastructure.pdb
+D:\AntraMicroService\Solution1\Onboarding.Infrastructure\bin\Debug\net6.0\Onboarding.Core.dll
+D:\AntraMicroService\Solution1\Onboarding.Infrastructure\bin\Debug\net6.0\Onboarding.Core.pdb
+D:\AntraMicroService\Solution1\Onboarding.Infrastructure\obj\Debug\net6.0\Onboarding.Infrastructure.csproj.AssemblyReference.cache
+D:\AntraMicroService\Solution1\Onboarding.Infrastructure\obj\Debug\net6.0\Onboarding.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\AntraMicroService\Solution1\Onboarding.Infrastructure\obj\Debug\net6.0\Onboarding.Infrastructure.AssemblyInfoInputs.cache
+D:\AntraMicroService\Solution1\Onboarding.Infrastructure\obj\Debug\net6.0\Onboarding.Infrastructure.AssemblyInfo.cs
+D:\AntraMicroService\Solution1\Onboarding.Infrastructure\obj\Debug\net6.0\Onboarding.Infrastructure.csproj.CoreCompileInputs.cache
+D:\AntraMicroService\Solution1\Onboarding.Infrastructure\obj\Debug\net6.0\Onboarding.Infrastructure.csproj.CopyComplete
+D:\AntraMicroService\Solution1\Onboarding.Infrastructure\obj\Debug\net6.0\Onboarding.Infrastructure.dll
+D:\AntraMicroService\Solution1\Onboarding.Infrastructure\obj\Debug\net6.0\refint\Onboarding.Infrastructure.dll
+D:\AntraMicroService\Solution1\Onboarding.Infrastructure\obj\Debug\net6.0\Onboarding.Infrastructure.pdb
+D:\AntraMicroService\Solution1\Onboarding.Infrastructure\obj\Debug\net6.0\Onboarding.Infrastructure.genruntimeconfig.cache
+D:\AntraMicroService\Solution1\Onboarding.Infrastructure\obj\Debug\net6.0\ref\Onboarding.Infrastructure.dll
