@@ -6,3 +6,24 @@ services:
     build:
       context: .
       dockerfile: OnboardingAPI/Dockerfile
+
+  interviewapi:
+    image: ${DOCKER_REGISTRY-}interviewapi
+    build:
+      context: .
+      dockerfile: InterviewAPI/Dockerfile
+
+
+  authenticationapi:
+    image: ${DOCKER_REGISTRY-}authenticationapi
+    build:
+      context: .
+      dockerfile: AuthethicationAPI/Dockerfile
+
+
+  recruitngapi:
+    image: ${DOCKER_REGISTRY-}recruitngapi
+    build:
+      context: .
+      dockerfile: RecruitngAPI/Dockerfile
+

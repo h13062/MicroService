@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vBSvyac5TDUSHDnaKpjZIItBpiP6PvbNPpmURFMrT6vKVuKmxM8eU90coQRaIrfQj00x//jDUN6PX31rw6/i9w==",
+  "dgSpecHash": "VnQlQYdVjBo0LaR0ZvOacHe2nj3BzUG5IlcJR54fzcG2faSHSpZhlJ2kNYNlQi6tyOdIiI4icqT7EkfM5bpk8A==",
   "success": true,
   "projectFilePath": "D:\\AntraMicroService\\Solution1\\RecruitngAPI\\RecruitngAPI.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\bgh15\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "C:\\Users\\bgh15\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\bgh15\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\bgh15\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
     "C:\\Users\\bgh15\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\bgh15\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\bgh15\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

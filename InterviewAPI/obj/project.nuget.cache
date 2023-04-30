@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2chr0/TTh+MbwQLomG0eNmB0KbxOmP/4xvWRaAiTnzdL5VsD26T/7U8y+Et8yIkfwGooqLU/llGAPjWpRQA6QQ==",
+  "dgSpecHash": "8lL6qdhlL17cTV9cs2OKOdb4O4YI29RPweJs929hhf6d6o2sjo6LnAbEHHbEu8uXCasd/NggrC6NX+FQoxihRA==",
   "success": true,
   "projectFilePath": "D:\\AntraMicroService\\Solution1\\InterviewAPI\\InterviewAPI.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\bgh15\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "C:\\Users\\bgh15\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\bgh15\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\bgh15\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
     "C:\\Users\\bgh15\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\bgh15\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\bgh15\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
