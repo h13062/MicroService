@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  onboardingapi:
+    image: ${DOCKER_REGISTRY-}onboardingapi
+    build:
+      context: .
+      dockerfile: OnboardingAPI/Dockerfile
