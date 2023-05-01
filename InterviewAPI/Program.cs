@@ -9,10 +9,26 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
+//builder.Services.AddDbContext<InterViewDbContext>(option => {
+//    option.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
+//    //this need for migrations
+//    option.UseSqlServer(builder.Configuration.GetConnectionString("InterviewTrainningDb")); // this line of code help Program.cs locate the connection string in appsetting.json
+//});
+
+var connectionString = Environment.GetEnvironmentVariable("InterviewTrainningDb");
+
 builder.Services.AddDbContext<InterViewDbContext>(option => {
+
+    if (connectionString.Length > 1)
+    {
+        option.UseSqlServer(connectionString);
+    }
+    else
+    {
+        //this need for migrations
+        option.UseSqlServer(builder.Configuration.GetConnectionString("InterviewTrainningDb")); // this line of code help Program.cs locate the connection string in appsetting.json
+    }
     option.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
-    //this need for migrations
-    option.UseSqlServer(builder.Configuration.GetConnectionString("InterviewTrainningDb")); // this line of code help Program.cs locate the connection string in appsetting.json
 });
 
 //dependecies injection

@@ -13,10 +13,25 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+//builder.Services.AddDbContext<OnboardingDbContext>(option => {
+//    option.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
+//    //this need for migrations
+//    option.UseSqlServer(builder.Configuration.GetConnectionString("OnBoardingDb")); // this line of code help Program.cs locate the connection string in appsetting.json
+//});
+var connectionString = Environment.GetEnvironmentVariable("OnBoardingDb");
+
 builder.Services.AddDbContext<OnboardingDbContext>(option => {
+
+    if (connectionString.Length > 1)
+    {
+        option.UseSqlServer(connectionString);
+    }
+    else
+    {
+        //this need for migrations
+        option.UseSqlServer(builder.Configuration.GetConnectionString("OnBoardingDb")); // this line of code help Program.cs locate the connection string in appsetting.json
+    }
     option.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
-    //this need for migrations
-    option.UseSqlServer(builder.Configuration.GetConnectionString("OnBoardingDb")); // this line of code help Program.cs locate the connection string in appsetting.json
 });
 
 builder.Services.AddScoped<IEmployeeRepositoryAsync, EmployeeRepositoryAsync>();

@@ -11,10 +11,26 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+//builder.Services.AddDbContext<AuthenticationDbContext>(option => {
+//    option.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
+//    //this need for migrations
+//    option.UseSqlServer(builder.Configuration.GetConnectionString("AuthenticationDb")); // this line of code help Program.cs locate the connection string in appsetting.json
+//});
+
+var connectionString = Environment.GetEnvironmentVariable("AuthenticationDb");
+
 builder.Services.AddDbContext<AuthenticationDbContext>(option => {
+
+    if (connectionString.Length > 1)
+    {
+        option.UseSqlServer(connectionString);
+    }
+    else
+    {
+        //this need for migrations
+        option.UseSqlServer(builder.Configuration.GetConnectionString("AuthenticationDb")); // this line of code help Program.cs locate the connection string in appsetting.json
+    }
     option.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
-    //this need for migrations
-    option.UseSqlServer(builder.Configuration.GetConnectionString("AuthenticationDb")); // this line of code help Program.cs locate the connection string in appsetting.json
 });
 builder.Services.AddScoped<IAccountRepositoryAsync, AccountRepositoryAsync>();
 builder.Services.AddScoped<IAccountServiceAsync, AccountServiceAsync>();    

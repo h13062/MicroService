@@ -12,10 +12,19 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+var connectionString = Environment.GetEnvironmentVariable("RecruitingDb");
 builder.Services.AddDbContext<RecruitingDbContext>(option => {
+
+    if (connectionString.Length > 1)
+    {
+        option.UseSqlServer(connectionString);
+    }
+    else
+    {        
+        //this need for migrations
+        option.UseSqlServer(builder.Configuration.GetConnectionString("RecruitingDb")); // this line of code help Program.cs locate the connection string in appsetting.json
+    }
     option.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
-    //this need for migrations
-    option.UseSqlServer(builder.Configuration.GetConnectionString("RecruitingDb")); // this line of code help Program.cs locate the connection string in appsetting.json
 });
 
 //Dependency injection for repositories and services
