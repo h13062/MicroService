@@ -6,24 +6,28 @@ services:
     build:
       context: .
       dockerfile: OnboardingAPI/Dockerfile
-
+    ports:
+    - "40239:80"
   interviewapi:
     image: ${DOCKER_REGISTRY-}interviewapi
     build:
       context: .
       dockerfile: InterviewAPI/Dockerfile
-
+    ports:
+    - "50319:80"
 
   authenticationapi:
     image: ${DOCKER_REGISTRY-}authenticationapi
     build:
       context: .
       dockerfile: AuthethicationAPI/Dockerfile
-
+    ports:
+    - "40005:80"
 
   recruitngapi:
     image: ${DOCKER_REGISTRY-}recruitngapi
     build:
       context: .
       dockerfile: RecruitngAPI/Dockerfile
-
+    ports:
+    - "30303:80"
